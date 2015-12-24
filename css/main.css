@@ -1,12 +1,9 @@
+
 body {
-    
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     border:0;
     margin: auto;
     width: 100%;
-
-
-   }
+    }
 
 
 /*--Google Map Canvas--*/
@@ -23,13 +20,11 @@ body {
     position: fixed;
     width: 100%
 
-}
+   }
 
    .container-fluid {
-
-   	max-width: 1200px;
-   	
-   }
+    max-width: 1200px;
+   	}
 
   #headerlogo {
   	color: green;
@@ -37,6 +32,7 @@ body {
   	text-transform: none;
   	font-size: 2em;
     font-weight: 700;
+    padding-top: 21px;
   }
 
    .navbar-inverse  {
@@ -44,21 +40,34 @@ body {
    	border-radius: 0px;
    	border: none;
    	text-transform: uppercase;
-    padding: 15px 0px;
+    padding: 0 0 10px 0;
     letter-spacing: 1px;
     z-index: 1;
-
-   
-   }
+    cursor: pointer;
+}
 
    .navbar-inverse .navbar-nav > li > a {
    	color: white;
    }
 
+.navbar-nav {
+  padding-top: 12px;
+
+}
+
   .navbar-inverse .navbar-nav li > a:hover,
 .navbar-inverse .navbar-nav li > a:focus {
 	color: #99aa77;
 }
+ #org {
+  padding-left: 10em;
+  color: white;
+ }
+@media (max-width: 767px) {
+
+#org{
+  padding-top: 22px;
+}}
 
 
 /*---- section top ----*/
@@ -69,6 +78,7 @@ section.top {
     background-position: center;
     background-repeat:no-repeat;
     background-size: cover;
+    
 
 	
 }
@@ -125,6 +135,7 @@ section.top {
 
 #boundaries {
 	padding-bottom: 100px;
+  padding-top: 50px
 }
 
 .boundaries-heading {
@@ -152,6 +163,7 @@ section.top {
 	background-color: #f7f7f7;
 	padding-bottom: 150px;
 	margin: 0 auto;
+  padding-top: 65px;
 }
 
 
@@ -200,24 +212,69 @@ section.top {
    font-size: 72px;
    text-align: center;
    padding-top: 20%;
-  
-   -webkit-transition: content 0.5s;
+  -webkit-transition: content 0.5s;
    font-family: 'Sigmar One', cursive;
  }
+
+
 
 @media (min-width: 768px) and (max-width: 991px) {
   .img-fade {
      color: transparent;
   position: relative;
   max-width: 55.5%;
-margin-left: auto;
-margin-right: auto;
-  }
+margin: 0 auto;
+    }
+}
+
+#poemandpic {
+padding-top: 50px;
+font-family: 'Montserrat', sans-serif;
+margin: 0 auto;
+line-height: 50%;
+}
+
+#poem {
+margin: 0 auto;
+padding-left: 60%;
+text-align: center;
+
+}
+
+#poemimage {
+border: solid;
+  width: 60%;
+  height: auto;
+}
+
+#poemcenter {
+  margin: 0 auto;
+  width: 50%;
+}
+
+@media (min-width: 1200px) {
+#poemcenter {
+  padding-left: 20em;
+  padding-top: 10px;
+}
 }
 
 
+@media (max-width: 1200px) {
+#poemimage {
+margin: 0 auto;
+  width: 40%;
+}
+}
 
-
+@media (max-width: 1200px) {
+#poemimage, #poemandpic, #poem  {
+ margin: 0 auto;
+    }
+    #poemimage {
+width: 50%;
+    }
+}
 
 /*--- About/Timeline Section ---*/
 
@@ -395,9 +452,6 @@ top:0;
 padding-right: .5em;
 }
 
-.time-line-block {
- 
-}
 .text-center-box-second {
    
     bottom: 8em;
@@ -422,6 +476,7 @@ padding-right: .5em;
   background-color: #f7f7f7;
   padding-bottom: 150px;
   margin: 0 auto;
+  padding-top: 65px;
 }
 
 .members-row {
@@ -447,6 +502,7 @@ color: #777;
 #join {
   background-color: #ffffff;
   padding-bottom: 100px;
+  padding-top: 65px;
 }
 
 #join-heading {
@@ -512,10 +568,6 @@ color: #777;
   text-align: center;
 }
 
-
-
-
-
 #contact-button {
   text-align: center;
   margin-left: auto;
@@ -561,7 +613,7 @@ section#contact .text-danger {
 
 #footer {
   background-color: white;
-  padding: 10px;
+  padding: 20px 0;
 
 }
 
@@ -583,9 +635,15 @@ section#contact .text-danger {
   border-radius: 50%;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
-  padding-top: 9px
+  
+  }
 
- }
+.copyright {
+  font-weight: 700;
+  margin-right: auto;
+  margin-right: auto;
+
+}
 
 .fa:hover {
   background-color: darkolivegreen;

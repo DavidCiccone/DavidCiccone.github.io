@@ -2,23 +2,20 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>South Of Main Block Watch</title>
+  <title>South Of Main Block Watch</title>
   <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/font-awesome.css" rel="stylesheet">
-
-<!-- Fonts -->
-<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400italic' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Sigmar+One' rel='stylesheet' type='text/css'>
+    
+    <!-- Fonts -->
+<link href='http://fonts.googleapis.com/css?family=Montserrat|Kaushan+Script|Droid+Serif:400italic|Architects+Daughter|Sigmar+One' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <!-- Google Map -->
-   <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true" class="img-responsive"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true" class="img-responsive"></script>
    
-    <script>
+  <script>
 // This example creates a simple polygon on the map.
 function initialize() {
   var mapOptions = {
@@ -55,8 +52,7 @@ function initialize() {
 
 google.maps.event.addDomListener(window, 'load', initialize);
 
-    </script>
-
+  </script>
 </head>
 <body>
 <!--Main Nav Bar -->
@@ -71,12 +67,12 @@ google.maps.event.addDomListener(window, 'load', initialize);
         <span class="icon-bar"></span>
       </button>
       <a id="headerlogo" class="navbar-brand" onclick="$('.top').animatescroll();">South of Main Block Watch</a>
+      <div id="org">sombw.org</div>
+
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      
-    
       <ul class="nav navbar-nav navbar-right">
         <li><a onclick="$('#boundaries').animatescroll();">Boundaries</a></li>
         <li><a onclick="$('#photos').animatescroll();">Photos</a></li>
@@ -212,6 +208,30 @@ google.maps.event.addDomListener(window, 'load', initialize);
       <p id="graytext"></p>
    </div>
 </div>
+ 
+</div>
+<div id="poemandpic">
+<div class="col-lg-6" id="poemcenter"><p id="poem">
+<h4>“Ode To A Vacant House”</h4>
+ <br><h5>
+The kitchen swarmed with 
+<br>delicious odors
+<br>The piano tickled with delight
+ <br>Laughter raced through the backyard
+ <br>Feet lined the stoop
+ <br>Silent now.
+ <br>Not dead…
+ <br>
+ <br>Just asleep
+ <br>-awaiting that proverbial kiss.
+  <br>
+ <br>By: Kathleen Bailey</h5>
+</p>
+</div> 
+<br>
+<div class="col-lg-6 text-center">
+  <img class="img-responsive" src="images\house.jpg" id="poemimage">
+</div>
 </div>
 </div>
 </section>
@@ -240,13 +260,13 @@ Without a vision, the people perish. </h3>
               <div class="time-line-block"><div class="right-side-text text-center-box bump-down"><h4 id="timeline-title">1800s</h4>
   <h4 id="timeline-title"></h4>
   <p id="sub-text">The South of Main area was formed as a working class area. It was primarily a farm area and two buildings associated with those farms still remain – the house at the corner of 22nd and Main at the post office on McAllister, and the building at the 400 block of Kimball which was the main house for the Kimball farm. </p></div>
-  <div class="timeline-img" id="top-timeline-circle"><img class="img-responsive image-styles" src="images/160x160 place holder.jpg"></div></div>
+  <div class="timeline-img" id="top-timeline-circle"><img class="img-responsive image-styles" src="images/timeline1.jpg"></div></div>
             </li>
              
                <li>
               
               
-  <div class="time-line-block"><div class="second-img-placement"><img src="images/160x160 place holder.jpg" class="about-images img-responsive image-styles"></div><div class="left-side-text text-center-box-second" id="right-text"><h4 id="timeline-title">1999</h4>
+  <div class="time-line-block"><div class="second-img-placement"><img src="images/timeline2.jpg" class="about-images img-responsive image-styles"></div><div class="left-side-text text-center-box-second" id="right-text"><h4 id="timeline-title">1999</h4>
   <h4 id="timeline-title"></h4>
   <p id="sub-text">The South of Main Block Watch was formed because the residents of the community care about the neighborhood.</p></div></div>
             </li>
@@ -256,7 +276,7 @@ Without a vision, the people perish. </h3>
               <div class="time-line-block" id="spacing-between-timelines"><div class="right-side-text text-center-box" id="bottom-text-spacing"><h4 id="timeline-title">1999</h4>
   <h4 id="timeline-title"></h4>
   <p id="sub-text">With help from a grant from the Columbus Foundation, the South of Main Block Watch (SOMB) was able to acquire two overrun and abandoned vacant lots from the City of Columbus. Located at the southwest corner of Linwood and Mound, the Linwood Pocket Park was created with love and a dream. With support from the Franklin Park Conservatory, Scotts and Nationwide Children’s Hospital, SOMB was able to add flower gardens, additional trees and two sculptures.</p></div>
-  <div class="timeline-img" id="bottom-timeline-circle"><img class="about-images img-responsive image-styles" src="images/160x160 place holder.jpg"></div></div>
+  <div class="timeline-img" id="bottom-timeline-circle"><img class="about-images img-responsive image-styles" src="images/timeline3.jpg"></div></div>
             </li>
           </ul>
 
@@ -274,12 +294,12 @@ Without a vision, the people perish. </h3>
                 </div>
   </div>
 
-<div class="row">
+<!--<div class="row">
   <div class="members-row">
   <div class="col-md-4"><img src="http://placekitten.com/g/239/239" class="member-images"><h4>Name1</h4><p>subtext</p></div>
   <div class="col-md-4"><img src="http://placekitten.com/g/239/239" class="member-images"><h4>Name2</h4><p>subtext</p></div>
   <div class="col-md-4"><img src="http://placekitten.com/g/239/239" class="member-images"><h4>Name3</h4><p>subtext</p></div>
-</div>
+</div>-->
 </div>
 </section>
 <!-- Join Section -->
@@ -349,11 +369,13 @@ Without a vision, the people perish. </h3>
  <div class="container">
   <div class="row">
     <div class="col-sm-12 text-center footer-icons">
-  <ul>
+  <span class="copyright">Copyright &copy; sombw.org</span>
+
+  <!--<ul>
     <li><i class="fa fa-facebook"></i></li>
   <li><i class="fa fa-twitter"></i></li>
 </ul>
-</div>
+</div>-->
 </div>
 </div>
 </section>
